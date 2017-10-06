@@ -10,7 +10,7 @@ Interleaved is when chunks are assigned to the processors in a round-robin manne
 Guided is a variant of dynamic scheduling where successive chunks get smaller
 Runtime is determined at runtime and set by a environment variable
 export OMP_SCHEDULE="dynamic, 100"
-+/
+*/
 
 
 #pragma omp parallel for schedule(dynamic) private(tmp, i, j, k)  
